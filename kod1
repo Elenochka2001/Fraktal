@@ -6,7 +6,7 @@ def rgb2gray(rgb):
     gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
     return gray
  
-image=rgb2gray(pl.imread("dendrite.png"))
+image=rgb2gray(pl.imread("DHVb7.png"))
 # finding all the non-zero pixels
 pixels=[]
 for i in range(image.shape[0]):
